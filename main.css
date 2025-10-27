@@ -1,0 +1,110 @@
+body {
+  height: 100fv;
+}
+nav {
+  display: flex;                     
+  gap: 30px;                       
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+   text-shadow:
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+
+}
+
+nav a:hover {
+  text-decoration: double;        
+}
+
+input {
+  background-color: #fff8f0;
+  border: solid rgb(169, 117, 101);
+  border-width: 2%;
+  border-radius: 50px;
+  text-align: center;
+  width: 50%;
+}
+button {
+  background-color: #fff8f0;
+  border: solid rgb(169, 117, 101);
+  border-width: 2%;
+  border-radius: 50px;
+  width: 50%;
+  cursor: pointer;
+}
+
+
+#BEVERAGES {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+#BEVERAGES img {
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+  background-color: #fff8f0; 
+  border-radius: 15px;       
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); 
+  padding: 15px;
+}
+
+#Balance {
+  top:20%;
+  left:90%;
+  width: 10%;
+  height: auto;
+  border: solid rgb(169, 117, 101);
+  background-color:bisque; 
+  position:fixed;
+}
+
+#Product_Selected {
+  left:40%;
+  top:15%;
+  width: 30%;
+  height: 80%;
+  border: solid rgb(169, 117, 101);
+  background-color:bisque; 
+  position:fixed;
+}
+
+#Order_Complete {
+  left:40%;
+  top:15%;
+  width: 30%;
+  height: 25%;
+  border: solid rgb(169, 117, 101);
+  background-color:bisque; 
+  position:fixed;
+}
+#img_selected{
+  margin-top:5%;
+  height:auto;
+  width:80%;
+}
+
+#money {
+  border: solid rgb(169, 117, 101);
+  width: 75%;
+}
+
+#contact_us{
+  position:absolute;
+  width:100%;
+  top:97%;
+  background-color: bisque;
+  border: solid rgb(169, 117, 101);
+  border-radius: 10px;
+}
+
+

@@ -1,0 +1,62 @@
+body {
+  height: 100fv;
+}
+nav {
+  display: flex;                     
+  gap: 30px;                       
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+   text-shadow:
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+
+}
+nav a:hover {
+  text-decoration: double;        
+}
+
+
+#socials { 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    background: solid rgb(169, 117, 101);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+     
+    justify-content: space-evenly; 
+} 
+
+.contact {
+  background-color: #edc4b3;
+  border-radius: 15%;
+  padding: 15px;
+  margin: 20px;
+  text-align: center;
+  font-size: 130%;
+  height: 600px;
+  width: 500px;
+}
+
+#socials img 
+{ 
+    width: 200px; 
+    height: 200px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5); 
+
+}
+
+.contact p {
+    color: aliceblue;
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}

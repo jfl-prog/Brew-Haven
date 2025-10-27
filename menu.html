@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BREW HAVEN</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" type="image/png" href="iconnatin.png">
+
+    
+</head>
+<body>
+    <header id="ulo">
+        <h1 id="salita" text-align = left>Brew Haven</h1>
+     <nav>
+      <a href="home.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="menu.html">Menu</a>
+
+    </nav>
+    </header>
+    <main>
+       
+       <div id="BEVERAGES">
+            <h1>
+               Caffeinated
+            </h1>
+            <br>
+            <table id = "Coffees"></table>
+            <br>
+            <h1>
+                Non Caffeinated Drink
+            </h1>
+            <br>
+            <table id = "Non Caffine"><br></table><br>
+            <br>
+            <h1>
+                Pastries 
+            </h1>
+            <br>
+            <br>
+            <table id = "Pastries"><br></table><br>
+       </div>
+
+    </main>
+    
+    <footer>
+        <p>BREW HAVEN SINCE 2025</p>
+    </footer>
+      
+    <div id = "Balance">
+        <h3>
+            <center>
+                Your Balance
+           
+                <div >
+                    <h2 id = "money">
+                        0000
+                    </h2>
+                </div>
+            </center>
+        </h3>
+    </div>
+
+    <div id = "Product_Selected">
+        <h3>
+            <center>
+                <img id = "img_selected">
+                <h2 id = "product_selected"></h2>
+                <h3 id = "price_selected"></h3>
+                <br>
+                <input placeholder="Enter the amount" type="number" value="1" id = "amount">
+                <br>
+                <button onclick="buy()">
+                    <h2 text-align = "center">
+                        PURCHASE
+                    </h2>
+                </button>
+                <br>
+                <br>
+                <button onclick = "back()">
+                    <h4 text-align = "center" >
+                        BACK
+                    </h4>
+                </button>
+                
+            </center>
+        </h3>
+    </div>
+
+    <div id = "Order_Complete">
+        <br>
+        <center>
+        <h2>
+            Thank you for ordering!
+        </h2>
+        <h2>
+            Your order is getting prepared
+        </h2>
+        <br>
+        <h3 id = "duration"></h3>
+        <br>
+        <button onclick = "back()">
+            <h4 text-align = "center" >
+                BACK
+            </h4>
+        </button>
+        </center>
+    </div>
+</body>
+
+<script src = "MenuScript.js"></script>
+</html>
+
+

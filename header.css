@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color:bisque ;
+    justify-content: center;
+}
+
+#ulo {
+  background-image: none;
+  background-color: rgb(169, 117, 101);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;                 
+  color: antiquewhite;
+  opacity: 100%;
+}
+
+#katawan{
+      background-position: center;
+      background-color: black;
+      background-image: url(finalcafe.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       margin: 0;
+     }
+    
+#likuran { 
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100vh;
+  border: solid;
+}
+
+#salita{
+  font-size: 50px;
+}
+ 
+h1{
+  text-align: left;
+  
+  color: antiquewhite;
+   text-shadow:
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+}
+h2 {
+  color:rgb(192, 144, 129);
+   text-shadow:
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+}
+h3 {
+  color:rgb(169, 117, 101);
+   text-shadow:
+      -1px -1px 0 black,  
+       1px -1px 0 black,
+      -1px  1px 0 black,
+       1px  1px 0 black;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+
+footer{
+    background-color: rgb(169, 117, 101);
+    text-align: center;
+    color: azure;
+    padding: 15px, 0;
+}
